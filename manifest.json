@@ -1,6 +1,6 @@
 {
   "name": "Figma plugin",
-  "id": "1381688389533678713",
+  "id": "000000",
   "api": "1.0.0",
   "main": "dist/code.js",
   "ui": "dist/ui.html",
