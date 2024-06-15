@@ -3,6 +3,66 @@ body {
   font-family: var(--base-font-family);
   font-size: var(--base-font-size);
   line-height: var(--body-line-height);
+  color: var(--figma-color-text);
+  font-size: var(--footnote);
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+p {
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 500;
+  line-height: var(--heading-line-height);
+}
+
+h1 {
+  font-size: var(--heading-01);
+}
+
+h2 {
+  font-size: var(--heading-02);
+}
+
+h3 {
+  font-size: var(--heading-03);
+}
+
+h4 {
+  font-size: var(--heading-04);
+}
+
+h5 {
+  font-size: var(--heading-05);
+}
+
+h6 {
+  font-size: var(--heading-06);
+}
+
+p {
+  font-size: var(--body-01);
+  line-height: var(--body-line-height);
+}
+
+.caption {
+  font-size: var(--body-02);
+}
+
+.footnote {
+  font-size: var(--footnote);
+}
+
+.legal {
+  font-size: var(--legal);
 }
 
 /* Figma UI styles */
@@ -168,4 +228,12 @@ label ~ .input,
 label ~ textarea,
 label ~ .combobox {
   margin-top: var(--spacing-xs);
+}
+
+.form-control {
+  position: relative;
+}
+
+.form-control ~ .form-control {
+  margin-top: var(--spacing-md);
 }

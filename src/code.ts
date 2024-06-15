@@ -1,4 +1,4 @@
-figma.showUI(__html__, {height: 200, width: 200, title: 'A Figma plugin', themeColors: true});
+figma.showUI(__html__, {height: 575, width: 430, title: 'A Figma plugin', themeColors: true});
 
 figma.ui.onmessage = (message) => {
   console.log('CODE LOG', message);
